@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -13,13 +14,13 @@
         <module name="wux-demo-common" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="wux-demo-application" target="17" />
-      <module name="wux-demo-common" target="17" />
-      <module name="wux-demo-doman" target="17" />
-      <module name="wux-demo-infrastructure" target="17" />
-      <module name="wux-demo-starter" target="17" />
-      <module name="wx_demo" target="17" />
+    <bytecodeTargetLevel target="8">
+      <module name="wux-demo-application" target="1.8" />
+      <module name="wux-demo-common" target="1.8" />
+      <module name="wux-demo-doman" target="1.8" />
+      <module name="wux-demo-infrastructure" target="1.8" />
+      <module name="wux-demo-starter" target="1.8" />
+      <module name="wx_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
